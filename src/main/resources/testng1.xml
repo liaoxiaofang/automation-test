@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite1" parallel="false">
+    <parameter name="browser" value="firefox" />
+    <parameter name="url" value="http://192.168.3.162:20380/inno-de-web/#/login" />
+    <!-- 主要是需要添加以下两个监听器-->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+    <test verbose="2" name="InnoDE_login" preserve-order="true">
+    <classes>
+            <class name="operation.testcase.LoginTest">
+                <methods>
+                    <include name="loginSuccess" />
+                    <!--include name="UsernamePasswordEmptyLoginFail" />
+                    <include name="UsernameEmptyLoginFail"/>
+                    <include name="PasswordEmptyLoginFail"/>
+                    <include name="PasswordErrorLoginFail"/>
+                    <include name="UsernamePasswordErrorLoginFail"/-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

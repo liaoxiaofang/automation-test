@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite2" parallel="false">
+    <parameter name="browser" value="firefox" />
+    <parameter name="url" value="http://192.168.3.162:20380/inno-de-web/#/login" />
+
+    <test verbose="2" name="InnoDE_project" preserve-order="true">
+    <classes>
+        <class name="operation.testcase.ProjectPlanTest">
+            <methods>
+                <include name="projectAdd" />
+                <include name="projectEdit" />
+                <include name="projectSearch"/>
+                <include name="stageAdd"/>
+                <include name="stageEdit"/>
+                <include name="stageSearch"/>
+                <include name="workItemAdd"/>
+                <include name="workItemEdit"/>
+                <include name="workItemSearch"/>
+                <include name="taskAdd"/>
+                <include name="taskEdit"/>
+                <include name="taskDelete"/>
+                <include name="workItemDelete"/>
+                <include name="teamGroupAddEditDelete"/>
+                <include name="teamMemberAssign"/>
+                <include name="teamMemberSearch"/>
+                <include name="teamMemberDelete"/>
+                <include name="stageDelete"/>
+                <include name="projectDelete"/>
+            </methods>
+        </class>
+    </classes>
+    </test>
+</suite>
