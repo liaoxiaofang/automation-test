@@ -3,6 +3,7 @@ package operation.testcase;
 import element.operation.LoginElementOperation;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -13,12 +14,16 @@ import org.testng.annotations.Test;
  */
 public class LoginTest {
     WebDriver driver;
+    //WebDriver webDriver = null;
     LoginElementOperation loginElementOperation;
     @BeforeClass
     private void openLoginPage(){
         //如果不是安装在默认路径下，要设置浏览器的安装路径
-        //System.setProperty("webdriver.firefox.bin", "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe");
+        System.setProperty("webdriver.firefox.bin", "/usr/lib64/firefox/firefox");
+        //System.setProperty("phantomjs.binary.path", "D:\\phantomjs-2.1.1-windows\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
         driver = new FirefoxDriver();
+       // webDriver = WebDriverUtil.createPhantomjsWebDriver("D:/phantomjs-2.1.1-windows/phantomjs-2.1.1-windows/bin/phantomjs.exe");
+        //WebDriver driver = new PhantomJSDriver();
         driver.get("http://192.168.3.162:20380/inno-de-web/#/login");
         driver.manage().window().maximize();
         loginElementOperation = new LoginElementOperation(driver);
