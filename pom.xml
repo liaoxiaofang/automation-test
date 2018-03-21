@@ -97,10 +97,10 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <encoding>UTF-8</encoding>
-                    <!--<fork>true</fork>-->
+                    <!--<source>1.8</source>-->
+                    <!--<target>1.8</target>-->
+                    <!--<encoding>UTF-8</encoding>-->
+                    <fork>true</fork>
                     <!--<executable>${JAVA_HOME}\bin\javac.exe</executable>-->
                 </configuration>
             </plugin>
