@@ -14,17 +14,30 @@
     <dependencies>
         <!--Selenium2.0-->
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-        <dependency>
+        <!--dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>2.52.0</version>
-        </dependency>
+        </dependency-->
 
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
+        <!--dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>2.52.0</version>
+        </dependency-->
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.5.3</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-api</artifactId>
-            <version>2.52.0</version>
+            <version>3.5.3</version>
         </dependency>
 
         <!--TestNG-->
@@ -108,7 +121,7 @@
     </build>
 
     <!-- 公司maven私服主仓库和maven插件仓库相关配置 -->
-    <repositories>
+    <!-- repositories>
         <repository>
             <id>nexus2</id>
             <name>Nexus2</name>
@@ -143,6 +156,6 @@
             <name>Nexus2</name>
             <url>http://repo1.maven.org/maven2/</url>
         </pluginRepository>
-    </pluginRepositories>
+    </pluginRepositories-->
 
 </project>

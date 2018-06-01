@@ -9,7 +9,7 @@
     </listeners>
     <test verbose="2" name="InnoDE_login" preserve-order="true">
     <classes>
-            <class name="operation.testcase.LoginTest">
+            <class name="operation.testcase.LoginTestFireFox38">
                 <methods>
                     <include name="loginSuccess" />
                     <!--include name="UsernamePasswordEmptyLoginFail" />
