@@ -10,6 +10,8 @@
     <properties>
         <file.encoding>UTF-8</file.encoding>
         <project.build.sourceEncoding>${file.encoding}</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.complier.target>1.8</maven.complier.target>
     </properties>
     <dependencies>
         <!--Selenium2.0-->
@@ -121,7 +123,7 @@
     </build>
 
     <!-- 公司maven私服主仓库和maven插件仓库相关配置 -->
-    <!-- repositories>
+    <!--repositories>
         <repository>
             <id>nexus2</id>
             <name>Nexus2</name>
