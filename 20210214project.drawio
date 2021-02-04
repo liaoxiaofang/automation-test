@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T08:26:37.456Z" agent="5.0 (Windows)" etag="1NIN84UD_kmQOnkQtDY4" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T09:02:03.658Z" agent="5.0 (Windows)" etag="2FH33ZudDCGROaYBXDKo" version="14.0.1" type="github">
   <diagram id="t4ctga8ut31WQuUNMBXp" name="Page-1">
-    <mxGraphModel dx="868" dy="479" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,16 +19,16 @@
         <mxCell id="a2n0651rRjcgQdYrs08B-16" value="项目版本&lt;div&gt;功能清单&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="a2n0651rRjcgQdYrs08B-2">
           <mxGeometry x="15" y="80" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="a2n0651rRjcgQdYrs08B-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=#FF8000;" vertex="1" parent="a2n0651rRjcgQdYrs08B-2">
+        <mxCell id="a2n0651rRjcgQdYrs08B-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;dashed=1;" vertex="1" parent="a2n0651rRjcgQdYrs08B-2">
           <mxGeometry x="10" y="60" width="100" height="275" as="geometry" />
         </mxCell>
         <mxCell id="a2n0651rRjcgQdYrs08B-3" value="Master" style="swimlane;html=1;startSize=30;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="a2n0651rRjcgQdYrs08B-1">
           <mxGeometry x="120" y="30" width="160" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="a2n0651rRjcgQdYrs08B-17" value="维护数据库脚本版本" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#FF8000;strokeWidth=2;" vertex="1" parent="a2n0651rRjcgQdYrs08B-3">
+        <mxCell id="a2n0651rRjcgQdYrs08B-17" value="维护数据库脚本版本" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=1;" vertex="1" parent="a2n0651rRjcgQdYrs08B-3">
           <mxGeometry x="35" y="80" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="a2n0651rRjcgQdYrs08B-23" value="&lt;br&gt;代码分支打tag" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#FF8000;strokeWidth=2;" vertex="1" parent="a2n0651rRjcgQdYrs08B-3">
+        <mxCell id="a2n0651rRjcgQdYrs08B-23" value="&lt;br&gt;代码分支打tag" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=1;" vertex="1" parent="a2n0651rRjcgQdYrs08B-3">
           <mxGeometry x="32" y="340" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="a2n0651rRjcgQdYrs08B-4" value="测试人员" style="swimlane;html=1;startSize=30;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="a2n0651rRjcgQdYrs08B-1">
@@ -40,7 +40,7 @@
         <mxCell id="a2n0651rRjcgQdYrs08B-21" value="开始" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="a2n0651rRjcgQdYrs08B-4">
           <mxGeometry x="46" y="40" width="94" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="a2n0651rRjcgQdYrs08B-22" value="测试通过并封版" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;strokeColor=#FF8000;" vertex="1" parent="a2n0651rRjcgQdYrs08B-4">
+        <mxCell id="a2n0651rRjcgQdYrs08B-22" value="测试通过并封版" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="a2n0651rRjcgQdYrs08B-4">
           <mxGeometry x="48" y="150" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="a2n0651rRjcgQdYrs08B-24" value="&lt;div&gt;上传版本包到&lt;/div&gt;&lt;div&gt;云盘&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="a2n0651rRjcgQdYrs08B-4">
@@ -49,7 +49,7 @@
         <mxCell id="a2n0651rRjcgQdYrs08B-25" value="上传版本包到FTP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="a2n0651rRjcgQdYrs08B-4">
           <mxGeometry x="48.5" y="340" width="90" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="a2n0651rRjcgQdYrs08B-26" value="&lt;br&gt;发送邮件" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#FF8000;strokeWidth=2;" vertex="1" parent="a2n0651rRjcgQdYrs08B-4">
+        <mxCell id="a2n0651rRjcgQdYrs08B-26" value="&lt;br&gt;发送邮件" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=1;" vertex="1" parent="a2n0651rRjcgQdYrs08B-4">
           <mxGeometry x="48" y="450" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="a2n0651rRjcgQdYrs08B-32" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;dashed=1;" vertex="1" parent="a2n0651rRjcgQdYrs08B-4">
@@ -73,7 +73,7 @@
         <mxCell id="a2n0651rRjcgQdYrs08B-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="a2n0651rRjcgQdYrs08B-7" source="a2n0651rRjcgQdYrs08B-38" target="a2n0651rRjcgQdYrs08B-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a2n0651rRjcgQdYrs08B-38" value="安排部署并验证通过" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#FF8000;strokeWidth=2;" vertex="1" parent="a2n0651rRjcgQdYrs08B-7">
+        <mxCell id="a2n0651rRjcgQdYrs08B-38" value="安排部署并验证通过" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=1;" vertex="1" parent="a2n0651rRjcgQdYrs08B-7">
           <mxGeometry x="21" y="228" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="a2n0651rRjcgQdYrs08B-51" value="发送邮件" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="a2n0651rRjcgQdYrs08B-7">
